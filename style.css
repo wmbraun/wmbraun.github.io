@@ -1,0 +1,91 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.sidenav a {
+  padding: 20px 10px 20px 25px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 250px;
+  padding: 0px 20px 0px 0px;
+}
+
+.header {
+    text-align: left;
+    font-family: "Times New Roman", serif;
+    font-size: 80px;
+}
+.header h2{
+    text-align: left;
+    font-size: 60px;
+    padding: 0px 25px 0px 25px;
+    margin-bottom: 10px;
+}
+.header p{
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px; 
+    padding: 0px 25px 0px 25px;
+    margin-bottom: 50px;
+}
+.education{
+    padding: 0px 25px 0px 25px;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-size: 60px; 
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: blue;
+    margin-bottom: 0px;
+
+}
+
+.education h4{
+    font-size: 40px; 
+    margin-bottom: 0px;
+    margin-top: 40px;
+    font-family: "Helvetica", sans-serif;
+}
+.education h5{
+    font-size: 35px; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: "Times New Roman", serif;
+}
+.education h6{
+    font-size: 30px; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: "Times New Roman", serif;
+}
+.education li{
+    font-size: 34px; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: "Times New Roman", serif;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
