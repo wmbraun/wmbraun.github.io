@@ -3,152 +3,225 @@
   <head>
     <title>William Braun Resume</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href ="style.css"/>
   </head>
   
-<body>
-
-<div class="sidenav">
-  <a><img src = "https://media.licdn.com/dms/image/D5603AQGcyvS07ODs1A/profile-displayphoto-shrink_200_200/0/1664551372442?e=1683158400&v=beta&t=Au3V-7G7GbPVVuP_sKNcON_LB_ep2DEX4woF2Z-F2DU" alt="Professional Headshot" width="200" height="200" style = "border-radius: 50%;""></a>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#projects and internship">Projects and Internship</a>
-  <a href="#skills">Skills</a>
-  <a href="#work experience">Work Experience</a>
-  <a href="#connect">Connect</a>
-</div>
-
-
-
-<div class="main">
-  <div class="header">
-    <a name="about"></a>
-    <h1>William Braun</h1>
-    <h2>Aspiring Software Developer</h2>
-    <p>I love connecting people with technology. A self-motivated problem-solver, interested in both front-end and back-end development. 
-      Looking forward to working with you to take your tech further.</p>
-  </div>
-
-  <div class="education">
-    <a name="education"></a>
-    <h3>Education</h3>
-    <h4>Bachelor of Science (B.S.) in Computer Science</h4>
-    <h5>University of Wisconsin - Madison</h5>
-    <h6>Madison, WI, Aug 2021 </h6>
+  <body>
+    <nav id = "smallnav" class="small_grid_container smallnav">
+      <a id="menu_close" class="fa-solid fa-bars small_grid_item" title="Open Menu"></a>
+      <a id="about_btn" class="fa-solid fa-circle-info small_grid_item" href="#about" title="About"></a>
+      <a id="education_btn" class="fa-solid fa-user-graduate small_grid_item" href="#education" title="Education"></a>
+      <a id="projects_btn" class="fa-solid fa-code-fork small_grid_item" href="#projects and internship" title="Projects"></a>
+      <a id="work_btn" class="fa-solid fa-briefcase small_grid_item" href="#work experience" title="Work"></a>
+      <a id="skill_btn" class="fa-sharp fa-solid fa-list-check small_grid_item" href="#skills" title="Skills"></a>
+      <a id="conect_btn" class="fa-solid fa-link small_grid_item" href="#connect" title="Connect"></a>
+    </nav>
     
-    <h4>Relevant Coursework</h4>
-    <ul>
-      <li>Software Engineering</li>
-      <li>Database Management Systems</li>
-      <li>Intro- Algorithms</li>
-      <li>Operating Systems</li>
-      <li>Intro - Combinatorics</li>
-      <li>Computer Graphics</li>
-    </ul>
-    <h4>Extracurricular Activities</h4>
-    <ul>
-      <li>International Business Student Association UW - Rotaract Rotary Chapter | Director of Club Fund Raising and  Executive Board Member</li>
-      <li>Acacia Fraternity | Membership Development Lead and Risk Manager - Increased membership by 300%</li>
-    </ul>
-  </div>
+    <nav id = "sidenav" class="grid_container sidenav">
+      <a id="menu_open" class="fa-solid fa-xmark grid_item minamize"></a>
+      <a class="grid_item grid_photo "><img id="profile_pic" src = "./images/head_shot.jpg" alt="Professional Headshot" width="200" height="200" style = "border-radius: 50%;"></a>
+      <a class="grid_item" href="#about">About</a>
+      <a class="grid_item" href="#education">Education</a>
+      <a class="grid_item" href="#projects and internship">Projects</a>
+      <a class="grid_item" href="#work experience">Experience</a>
+      <a class="grid_item" href="#skills">Skills</a>
+      <a class="grid_item" href="#connect">Connect</a>
+        <a href="https://www.linkedin.com/in/william-braun-485493233/" target="_blank" title = "LinkedIn Profile">
+          <i class="fa-brands fa-linkedin nested_item"></i>
+        </a>
+        <a href="https://github.com/wmbraun/" target="_blank" title = "Github Profile">
+          <i class="fa-brands fa-github nested_item"></i>
+        </a>
+        <a href="mailto:braunw5@gmail.com" target="_blank" title = ""E-mail me">
+          <i class="fa-regular fa-envelope nested_item"></i>
+        </a>
+        <a href="/images/William_Braun_Resume Gradient Jr Software Engineer.pdf" target="_blank" title = "Resume PDF">
+          <i class="fa-regular fa-file-pdf nested_item"></i>
+        </a>
+    </nav>
 
-  <div class="education">
-    <a name="projects and internship"></a>
-    <h3>Projects and Internship Experience</h3>
-    
+    <div class="container container1">
+      <img src="./images/madison.png" alt="Looping Image">
+      <img src="./images/code2.png" alt="Looping Image">
+      <img src="./images/gaylor.png" alt="Looping Image">
+      <img src="./images/recipe.png" alt="Looping Image">
+      <img src="./images/Centapied.png" alt="Looping Image">
+      <img src="./images/rotary.png" alt="Looping Image">
+      <img src="./images/madison.png" alt="Looping Image">
+      <img src="./images/code2.png" alt="Looping Image">
+      <img src="./images/gaylor.png" alt="Looping Image">
+      <img src="./images/recipe.png" alt="Looping Image">
+      <img src="./images/Centapied.png" alt="Looping Image">
+      <img src="./images/rotary.png" alt="Looping Image">
+	  </div>
+    <p>
 
-    <h4>Student Project</h4>
-    <h6>Computer Graphics Course Projects, Jan 2021 - May 2021</h6>
-    <ul>
-      <li>Designed graphics and custom animations on web pages using Three.js</li>
-      <li>Developed interactive graphical applications using web-based technologies </li>
-    </ul>
-
-    <h4>Team Member</h4>
-    <h6>Software Engineering Course Project, Sep 2020 - Dec 2020</h6>
-    <ul>
-      <li>Designed and programmed User Interface functionality of board game assistant application using libGDX</li>
-      <li>Utilized Scrum process management with team to ensure project workflow effectiveness</li>
-    </ul>
-
-    <h4>Team Member</h4>
-    <h6>Database Management Systems, Jun 2020 - Aug 2020</h6>
-    <ul>
-      <li>Designed recipe search and organizer desktop application</li>
-      <li>Built interfaces, created queries and updates for database, integrating MySQL and JavaFX</li>
-    </ul>
-
-    <h4>Intern - Information Services</h4>
-    <h6>Gaylor Electric - Indianapolis, IN| Jun 2019 - Aug 2019</h6>
-    <ul>
-      <li>Onboarded and trained employees in company technology and IT services</li>
-      <li>Provided help desk assistance ensuring employee access, performing software application installs and resolve hardware issues in a timely, secure and complete manner </li>
-      <li>Performed new devices visualizations and testing for 1500 plus employee company operating in 9 states </li>
-      <li>Gained understanding of scrum process and project management</li>
-    </ul>
-
-    <h4>Intern – Human Resources and Payroll </h4>
-    <h5>The Lutheran Home– Wauwatosa, WI | Dec 2014- Jun 2015</h5>
-    <ul>
-      <li>Identified errors and escalated discrepancies for resolution in audits testing paid time accruals and holiday payments</li>
-      <li>Coordinated implementation of electronic performance evaluation process for 50+ managers and 500 employees</li>
-      <li>Identified and tested scripts to test calculation and field population function</li>
-    </ul>
-  </div>
-
-  <div class="education">
-    <a name="skills"></a>
-    <h3>Skills</h3>
-    <ul style=" column-count: 2;">
-      <li>Java</li>
-      <li>C</li>
-      <li>MySQL</li>
-      <li>Python</li>
-      <li>Training and Onboarding</li>
-      <li>Team Leadership</li>
-      <li>Customer Service</li>
-      <li>Verbal Communication</li>
-    </ul>
-  </div>
-
-  <div class="education">
-    <a name="work experience"></a>
-    <h3>Work Experience</h3>
-
-    <h4>Lead Server, Expeditor, Food Preparation, Cashier</h4>
-    <h5>Bel Air Cantina, Cento Italian Restaurant, UW Madison University Housing | Madison, WI | Sep 2013 – Sep 2020	</h5>
-    <ul>
-      <li>Trained and led team in service procedure, practices and policies </li>
-      <li>Facilitated communication and collaboration between kitchen and wait staff to ensure guest satisfaction</li>
-      <li>Advised wait staff of available accommodations to meet dietary and food allergy inquiries and requests</li>
-      <li>Delivered friendly and efficient service while anticipating needs of guests</li>
-    </ul>
-
-    <h4>Camp Counselor, Trail Facilitator, Tripping Assistant and Convey Leader</h4>
-    <h5>Camp Manitowish YMCA | Boulder Junction, WI | Summers 2013 and 2014</h5>
-    <ul>
-      <li>Facilitated a positive learning and bonding experiences for high school age campers focused on personal, leadership and character development</li>
-      <li>Collaborated with camp team and parents to foster personal development, meet emotional needs and facilitate growth of middle school age campers</li>
-      <li>Instructed canoeing, backpacking and wilderness skills to assure preparation and instill a love of trail life</li>
-      <li>Planned and facilitated 2-to-5-day camping trips and represented camp during camp transport</li>
-    </ul>
-  </div>
-
-  <div class="education">
-    <a name="connect"></a>
-    <h3>Connect</h3>
-    <ul>
-      <li>braunw5@gmail.com</li>
-      <li>262.389.9252</li>
-      <li><a href="https://www.linkedin.com/in/william-braun-485493233/">LinkedIn</a></li>
-      <li><a href="https://github.com/wmbraun/">Github</a></li>
-      <li><a href="https://www.google.com/maps/place/Twin+Cities,+MN/@44.9693245,-93.1667414,12z/data=!3m1!4b1!4m6!3m5!1s0x87f629fd5bb7538f:0xd070c186a8aea420!8m2!3d44.9374831!4d-93.2009998!16zL20vMHB5XzA">Minneapolis - Saint Paul, MN</a></li>
-    </ul>
-  </div>
-
-</div>
+    </p>
+    <div class="container container2">
+      <img src="./images/ttr.png" alt="Looping Image">
+      <img src="./images/ymca.png" alt="Looping Image">
+      <img src="./images/recipe2.png" alt="Looping Image">
+      <img src="./images/ttr2.png" alt="Looping Image">
+      <img src="./images/code.png" alt="Looping Image">
+      <img src="./images/animation2.png" alt="Looping Image">
+      <img src="./images/ttr.png" alt="Looping Image">
+      <img src="./images/ymca.png" alt="Looping Image">
+      <img src="./images/recipe2.png" alt="Looping Image">
+      <img src="./images/ttr2.png" alt="Looping Image">
+      <img src="./images/code.png" alt="Looping Image">
+    </div>
    
-</body>
+    <main id = "main" class="main">
+      <section class="about">
+        <a name="about"></a>
+        <h1>William Braun</h1>
+        <h2>Aspiring Software Developer</h2>
+        <p>I love connecting people with technology. A self-motivated problem-solver, interested in both front-end and back-end development. 
+          Looking forward to working with you to take your tech further.</p>
+        </section>
 
+      <section class="education">
+        <a name="education"></a>
+        <h3>Education</h3>
+        <h4>Bachelor of Science (B.S.) in Computer Science</h4>
+        <h5>University of Wisconsin - Madison</h5>
+        <h6>Madison, WI, Aug 2021 </h6>
+        
+        <h4>Relevant Coursework</h4>
+        <ul>
+          <li>Software Engineering</li>
+          <li>Database Management Systems</li>
+          <li>Intro- Algorithms</li>
+          <li>Operating Systems</li>
+          <li>Intro - Combinatorics</li>
+          <li>Computer Graphics</li>
+        </ul>
+        <h4>Extracurricular Activities</h4>
+        <ul>
+          <li>International Business Student Association UW - Rotaract Rotary Chapter | Director of Club Fund Raising and  Executive Board Member</li>
+          <li>Acacia Fraternity | Membership Development Lead and Risk Manager - Increased membership by 300%</li>
+        </ul>
+      </section>
+
+      <section class="projects and internship">
+        <a name="projects and internship"></a>
+        <h3>Projects and Internship Experience</h3>
+        
+        <article>
+          <h4>Student Project</h4>
+          <h6>Computer Graphics Course Projects, Jan 2021 - May 2021</h6>
+          <ul>
+            <li>Designed graphics and custom animations on web pages using Three.js</li>
+            <li>Developed interactive graphical applications using web-based technologies </li>
+          </ul>
+        </article>
+
+        </article>
+          <h4>Team Member</h4>
+          <h6>Software Engineering Course Project, Sep 2020 - Dec 2020</h6>
+          <ul>
+            <li>Designed and programmed User Interface functionality of board game assistant application using libGDX</li>
+            <li>Utilized Scrum process management with team to ensure project workflow effectiveness</li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Team Member</h4>
+          <h6>Database Management Systems, Jun 2020 - Aug 2020</h6>
+          <ul>
+            <li>Designed recipe search and organizer desktop application</li>
+            <li>Built interfaces, created queries and updates for database, integrating MySQL and JavaFX</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="work experience">
+        <a name="work experience"></a>
+        <h3>Work Experience</h3>
+        <article>
+          <h4>Intern - Information Services</h4>
+          <h6>Gaylor Electric - Indianapolis, IN| Jun 2019 - Aug 2019</h6>
+          <ul>
+            <li>Onboarded and trained employees in company technology and IT services</li>
+            <li>Provided help desk assistance ensuring employee access, performing software application installs and resolve hardware issues in a timely, secure and complete manner </li>
+            <li>Performed new devices visualizations and testing for 1500 plus employee company operating in 9 states </li>
+            <li>Gained understanding of scrum process and project management</li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Intern – Human Resources and Payroll </h4>
+          <h5>The Lutheran Home– Wauwatosa, WI | Dec 2014- Jun 2015</h5>
+          <ul>
+            <li>Identified errors and escalated discrepancies for resolution in audits testing paid time accruals and holiday payments</li>
+            <li>Coordinated implementation of electronic performance evaluation process for 50+ managers and 500 employees</li>
+            <li>Identified and tested scripts to test calculation and field population function</li>
+          </ul>
+        </article>
+        
+        <article>
+          <h4>Lead Server, Expeditor, Food Preparation, Cashier</h4>
+          <h5>Bel Air Cantina, Cento Italian Restaurant, UW Madison University Housing | Madison, WI | Sep 2013 – Sep 2020	</h5>
+          <ul>
+            <li>Trained and led team in service procedure, practices and policies </li>
+            <li>Facilitated communication and collaboration between kitchen and wait staff to ensure guest satisfaction</li>
+            <li>Advised wait staff of available accommodations to meet dietary and food allergy inquiries and requests</li>
+            <li>Delivered friendly and efficient service while anticipating needs of guests</li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Camp Counselor, Trail Facilitator, Tripping Assistant and Convey Leader</h4>
+          <h5>Camp Manitowish YMCA | Boulder Junction, WI | Summers 2013 and 2014</h5>
+          <ul>
+            <li>Facilitated a positive learning and bonding experiences for high school age campers focused on personal, leadership and character development</li>
+            <li>Collaborated with camp team and parents to foster personal development, meet emotional needs and facilitate growth of middle school age campers</li>
+            <li>Instructed canoeing, backpacking and wilderness skills to assure preparation and instill a love of trail life</li>
+            <li>Planned and facilitated 2-to-5-day camping trips and represented camp during camp transport</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="skills">
+        <a name="skills"></a>
+        <h3>Skills</h3>
+        <ul style=" column-count: 2;">
+          <li>Java</li>
+          <li>C</li>
+          <li>MySQL</li>
+          <li>Python</li>
+          <li>Training and Onboarding</li>
+          <li>Team Leadership</li>
+          <li>Customer Service</li>
+          <li>Verbal Communication</li>
+        </ul>
+      </section>
+
+      <section class="connect">
+        <a name="connect"></a>
+        <h3>Connect</h3>
+        <footer class="icon_grid">
+          <a href="https://www.linkedin.com/in/william-braun-485493233/" target="_blank" title = "LinkedIn Profile">
+            <i class="fa-brands fa-linkedin icon_item"></i>
+          </a>
+          <a href="https://github.com/wmbraun/" target="_blank" title = "Github Profile">
+            <i class="fa-brands fa-github icon_item"></i>
+          </a>
+          <a href="mailto:braunw5@gmail.com" target="_blank" title = ""E-mail me">
+            <i class="fa-regular fa-envelope icon_item"></i>
+          </a>
+          <a href="/images/William_Braun_Resume Gradient Jr Software Engineer.pdf" target="_blank" title = "Resume PDF">
+            <i class="fa-regular fa-file-pdf icon_item"></i>
+          </a>
+          <a href="tel:+1 262 389 9252" title = "Phone Call">
+            <i class="fa-solid fa-phone icon_item"></i>
+          </a>
+        </footer>
+      </section>
+    </main>
+    <script src="resume_script.js"></script>
+    <script src="https://kit.fontawesome.com/9d99bfe38c.js" crossorigin="anonymous"></script>
+
+  </body>
 </html> 
