@@ -135,7 +135,7 @@ img:nth-child(12) {
   position: static;
   margin-left: 20%;
   transition: margin-left 2s;
-  background-image: url(yellow_weave.gif);
+  background-image: url(/yellow_weave.gif);
 }
 .main.fullscreen{
   margin-left: 5%;  
